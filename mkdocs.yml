@@ -3,6 +3,9 @@ site_name: Rucio Documentation test
 nav:
     - 'index.md'
 
+theme:
+  name: material
+
 plugins:
     - search:
         separator: '[\s\-\.]+'
