@@ -1,0 +1,4 @@
+site_name: Rucio Documentation test
+
+nav:
+    - 'index.md'
