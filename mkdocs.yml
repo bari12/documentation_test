@@ -11,3 +11,5 @@ theme:
 plugins:
     - search:
         separator: '[\s\-\.]+'
+
+repo_url: https://github.com/bari12/documentation_test/
