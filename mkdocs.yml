@@ -2,6 +2,8 @@ site_name: Rucio Documentation test
 
 nav:
     - 'index.md'
+    - 'api.md'
+    - 'clients.md'
 
 theme:
   name: material
