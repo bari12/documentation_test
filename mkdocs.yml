@@ -9,9 +9,7 @@ theme:
   name: material
 
 plugins:
-    - search:
-        separator: '[\s\-\.]+'
-
+    - search
     - mkdocstrings:
       default_handler: python
       watch:
