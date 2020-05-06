@@ -11,6 +11,7 @@ theme:
 plugins:
     - search:
         separator: '[\s\-\.]+'
+
     - mkdocstrings:
       default_handler: python
       watch:
