@@ -37,10 +37,7 @@ fi
 git remote rm origin
 git remote add origin "${remote_repo}"
 
-mkdir src/
-cd src/
 git clone https://github.com/rucio/rucio.git
 ls -all
-cd ..
 
 mkdocs gh-deploy --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --force
