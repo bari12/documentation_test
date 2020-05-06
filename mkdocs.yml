@@ -11,8 +11,8 @@ theme:
 plugins:
     - search
     - mkdocstrings:
-      default_handler: python
-      watch:
-        - rucio/lib/rucio
+        default_handler: python
+        watch:
+          - rucio/lib/rucio
 
 repo_url: https://github.com/bari12/documentation_test/
