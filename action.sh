@@ -40,6 +40,7 @@ git remote add origin "${remote_repo}"
 pip install mkdocs-material
 pip install mkdocstrings
 git clone https://github.com/rucio/rucio.git
-ls -all rucio/
+cd rucio/
+pwd
 
 mkdocs gh-deploy -v --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --force
