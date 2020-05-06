@@ -13,7 +13,7 @@ plugins:
     - mkdocstrings:
         default_handler: python
         watch:
-          - /home/runner/work/documentation_test/documentation_test/rucio/lib/rucio/
+          - /github/workspace/rucio/lib/rucio/
 
 repo_url: https://github.com/bari12/documentation_test/
 site_url: http://bari12.github.com/documentation_test/
