@@ -37,6 +37,7 @@ fi
 git remote rm origin
 git remote add origin "${remote_repo}"
 
+pip install mkdocstrings
 git clone https://github.com/rucio/rucio.git
 ls -all
 
