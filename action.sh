@@ -41,6 +41,4 @@ pip install mkdocs-material
 pip install mkdocstrings
 git clone https://github.com/rucio/rucio.git
 
-python3 -c "import importlib; importlib.import_module('/github/workspace/rucio')"
-
 mkdocs gh-deploy -v --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --force
