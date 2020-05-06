@@ -12,11 +12,11 @@ This section contains the general information related to Rucio which is
 common to all developers, users, and operators. For documentation
 specific to any of these three, please see the subsequent sections.
 
-[Concepts](concepts.md)
-[replica_workflow]
-[architecture]
-[releasepolicy]
-[releasenotes]
+...[Concepts](concepts.md)
+...[replica_workflow]
+...[architecture]
+...[releasepolicy]
+...[releasenotes]
 
 Developer Documentation
 =======================
