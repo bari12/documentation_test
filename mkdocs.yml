@@ -17,7 +17,5 @@ plugins:
         python:
           rendering:
             show_source: true
-      watch:
-        - .
 
 repo_url: https://github.com/bari12/documentation_test/
