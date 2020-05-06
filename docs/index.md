@@ -23,40 +23,40 @@ Developer Documentation
 
 If you want to develop with Rucio or contribute to the project, this part of the documentation is for you.
 
-[contributing]
-[developing]
-[rest]
-[api]
-[database]
+* [contributing]
+* [developing]
+* [rest]
+* [api]
+* [database]
 
 User Documentation
 ==================
 
-[installing_clients]
-[cli_examples]
-[man/rucio]
-[man/rucio-admin]
-[rse_expressions]
-[clients]
-[advanced_usage]
+* [installing_clients]
+* [cli_examples]
+* [man/rucio]
+* [man/rucio-admin]
+* [rse_expressions]
+* [clients]
+* [advanced_usage]
 
 Operator Documentation
 ======================
 
-[installing_server]
-[installing_daemons]
-[man/daemons]
-[monitoring]
-[policy_packages]
+* [installing_server]
+* [installing_daemons]
+* [man/daemons]
+* [monitoring]
+* [policy_packages]
 
 Rucio Tutorial
 ==============
 
-[demo_environment]
-[cli_examples]
-[cli_admin_examples]
+* [demo_environment]
+* [cli_examples]
+* [cli_admin_examples]
 
 Authors
 =======
 
-[authors]
+* [authors]
