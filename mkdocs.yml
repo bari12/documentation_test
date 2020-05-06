@@ -11,5 +11,13 @@ theme:
 plugins:
     - search:
         separator: '[\s\-\.]+'
+    - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: true
+      watch:
+        - rucio/lib/rucio/
 
 repo_url: https://github.com/bari12/documentation_test/
