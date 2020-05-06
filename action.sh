@@ -37,10 +37,9 @@ fi
 git remote rm origin
 git remote add origin "${remote_repo}"
 
-pip install mkdocs
 pip install mkdocs-material
 pip install mkdocstrings
 git clone https://github.com/rucio/rucio.git
 ls -all
 
-mkdocs gh-deploy --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --force
+mkdocs gh-deploy -v --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --force
