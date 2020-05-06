@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Deploy docs
-        uses: ./.github/@master
+        uses: ./.github/action@master
         env:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
