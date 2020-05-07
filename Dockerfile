@@ -6,6 +6,7 @@ COPY action.sh /action.sh
 RUN apk add --no-cache \
       bash \
       git \
+      libffi-dev \
     && apk add --no-cache --virtual .build gcc musl-dev \
     && chmod +x /action.sh
 
