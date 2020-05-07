@@ -37,9 +37,9 @@ fi
 git remote rm origin
 git remote add origin "${remote_repo}"
 
-pip install mkdocs
-pip install mkdocs-material
-pip install mkdocstrings
+pip install sphinx
+pip install recommonmark
+pip install git+https://github.com/bashtage/sphinx-material.git
 
 pip install rucio
 
