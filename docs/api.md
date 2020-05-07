@@ -3,6 +3,6 @@
 blal bla 
  asd
 
-::: api.rule
+::: rucio.api.rule
     rendering:
       show_source: false
