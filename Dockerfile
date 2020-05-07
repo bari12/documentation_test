@@ -2,6 +2,7 @@
 FROM python:3.6.10-alpine3.11
 
 COPY action.sh /action.sh
+COPY rucio.cfg /github/workspace/rucio.cfg
 
 RUN apk add --no-cache \
       bash \
