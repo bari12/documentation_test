@@ -16,8 +16,6 @@ plugins:
           python:
             rendering:
               show_source: true
-        watch:
-          - /github/workspace/rucio/lib/rucio
 
 repo_url: https://github.com/bari12/documentation_test/
 site_url: http://bari12.github.com/documentation_test/
