@@ -37,11 +37,13 @@ fi
 git remote rm origin
 git remote add origin "${remote_repo}"
 
-pip3.6 install mkdocs
-pip3.6 install mkdocs-material
-pip3.6 install mkdocstrings
+pip install mkdocs
+pip install mkdocs-material
+pip install mkdocstrings
 
-git clone https://github.com/rucio/rucio.git
+pip install rucio
+
+#git clone https://github.com/rucio/rucio.git
 
 echo ${GITHUB_WORKSPACE}
 which mkdocs
