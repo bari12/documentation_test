@@ -6,6 +6,7 @@ COPY action.sh /action.sh
 RUN apk add --no-cache \
       bash \
       git \
+      gcc \
     && chmod +x /action.sh
 
 ENTRYPOINT ["/action.sh"]
