@@ -7,6 +7,8 @@ RUN apk add --no-cache \
       bash \
       git \
       libffi-dev \
+      make \
+      python3-dev \
     && apk add --no-cache --virtual .build gcc musl-dev \
     && chmod +x /action.sh
 
