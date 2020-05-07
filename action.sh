@@ -43,10 +43,4 @@ pip install git+https://github.com/bashtage/sphinx-material.git
 
 pip install rucio
 
-#git clone https://github.com/rucio/rucio.git
-
-echo ${GITHUB_WORKSPACE}
-which mkdocs
-pwd
-
-mkdocs gh-deploy -v --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --force
+make html
