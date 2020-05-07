@@ -7,6 +7,7 @@ COPY rucio.cfg /opt/rucio/etc/rucio.cfg
 RUN apk add --no-cache \
       bash \
       git \
+      git-fast-import \
       libffi-dev \
       make \
       python3-dev \
