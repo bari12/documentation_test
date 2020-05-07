@@ -14,6 +14,7 @@ RUN apk add --no-cache \
       openssl \
       libressl-dev \
       libxml2-dev \
+      libxslt-dev \
     && apk add --no-cache --virtual .build gcc musl-dev \
     && chmod +x /action.sh
 
