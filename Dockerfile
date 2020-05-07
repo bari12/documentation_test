@@ -13,6 +13,7 @@ RUN apk add --no-cache \
       python3-dev \
       openssl \
       libressl-dev \
+      libxml2-dev \
     && apk add --no-cache --virtual .build gcc musl-dev \
     && chmod +x /action.sh
 
