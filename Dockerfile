@@ -10,6 +10,7 @@ RUN apk add --no-cache \
       make \
       python3-dev \
       openssl \
+      libssl-dev \
     && apk add --no-cache --virtual .build gcc musl-dev \
     && chmod +x /action.sh
 
